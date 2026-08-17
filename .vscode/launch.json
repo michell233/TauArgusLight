@@ -6,17 +6,17 @@
             "name": "Start (32-Bit) - Hauptprojekt",
             "request": "launch",
             "mainClass": "tauargus.model.Application", 
-            "javaExec": "C:\\Users\\eluft\\Documents\\DESTATIS\\zulu17.64.17-ca-jdk17.0.18-win_i686\\zulu17.64.17-ca-jdk17.0.18-win_i686\\bin\\java.exe",
-            "vmArgs": "-Djava.library.path=\"${workspaceFolder:tauargus-modernization}/dlls\"",
-            "cwd": "${workspaceFolder:tauargus-modernization}/dlls"
+            "javaExec": "C:\\JAVA_Version\\jdk-21.0.12_32\\bin\\java.exe",
+            "vmArgs": "-Djava.library.path=\"${workspaceFolder:TauArgusLight}/dlls\"",
+            "cwd": "${workspaceFolder:TauArgusLight}/dlls"
         },
         {
             "type": "java",
             "name": "Start (64-Bit) - Branch Version",
             "request": "launch",
             "mainClass": "tauargus.model.Application",
-            "javaExec": "C:\\Users\\eluft\\Documents\\DESTATIS\\zulu17.64.17-ca-jdk17.0.18-win_x64\\zulu17.64.17-ca-jdk17.0.18-win_x64\\bin\\java.exe",
-            "vmArgs": "-Djava.library.path=\"${workspaceFolder:tauargus-modernization}/dlls\""
+            "javaExec": "C:\\JAVA_Version\\jdk-21.0.12_32\\bin\\java.exe",
+            "vmArgs": "-Djava.library.path=\"${workspaceFolder:TauArgusLight}/dlls\""
         }
     ]
 }
