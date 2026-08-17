@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Start (32-Bit) - Hauptprojekt",
+            "request": "launch",
+            "mainClass": "tauargus.model.Application", 
+            "javaExec": "C:\\JAVA_Version\\jdk-21.0.12_32\\bin\\java.exe",
+            "vmArgs": "-Djava.library.path=\"${workspaceFolder:TauArgusLight}/dlls\"",
+            "cwd": "${workspaceFolder:TauArgusLight}/dlls"
+        },
+        {
+            "type": "java",
+            "name": "Start (64-Bit) - Branch Version",
+            "request": "launch",
+            "mainClass": "tauargus.model.Application",
+            "javaExec": "C:\\JAVA_Version\\jdk-21.0.12_64\\bin\\java.exe",
+            "vmArgs": "-Djava.library.path=\"${workspaceFolder:TauArgusLight}/dlls\"",
+            "cwd": "${workspaceFolder:TauArgusLight}/dlls"
+        }
+    ]
+}
